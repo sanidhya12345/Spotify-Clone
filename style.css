@@ -1,0 +1,94 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap");
+body {
+  background-color: antiquewhite;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul li {
+  padding: 0 12px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+.brand img {
+  width: 45px;
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.bottom {
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  margin: 0;
+}
+.container {
+  min-height: 75vh;
+  background-color: black;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  width: 70%;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  padding: 34px;
+  margin: 23px auto;
+  background-image: url("./resources/back.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icons {
+  margin-top: 14px;
+}
+.icons {
+  cursor: pointer;
+}
+#myProgressBar {
+  width: 80vh;
+}
+.songItem img {
+  width: 43px;
+  margin: 0px 23px;
+  border-radius: 34px;
+}
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: lightpink;
+  width: 325px;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+.songItem i {
+  margin-right: 10px;
+}

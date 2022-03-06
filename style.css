@@ -71,7 +71,8 @@ ul {
   cursor: pointer;
 }
 #myProgressBar {
-  width: 80vh;
+  width: 80%;
+  cursor: pointer;
 }
 .songItem img {
   width: 43px;
@@ -83,7 +84,7 @@ ul {
   display: flex;
   background-color: lightpink;
   width: 325px;
-  color: black;
+  color: blue;
   margin: 12px 0;
   justify-content: space-between;
   align-items: center;
@@ -91,4 +92,21 @@ ul {
 }
 .songItem i {
   margin-right: 10px;
+}
+.song {
+  font-size: 20px;
+  color: green;
+}
+.songInfo {
+  position: absolute;
+  left: 10vw;
+}
+#masterSongName {
+  justify-content: center;
+  align-items: center;
+  bottom: 50%;
+}
+.songInfo img {
+  opacity: 0;
+  transition: opacity 1s ease-in;
 }
